@@ -1,0 +1,19 @@
+.lake-image {
+  height: 800px;
+  background-image: url('../img/banf.jpg');
+}
+.web-image{
+  height: 600px;
+  background-image: url('../img/web.jpg');
+}
+.lake-image, .web-image{
+  width:100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+  background-blend-mode:multiply;
+  background-color: #333;
+}
+.services{
+  color:#750404;
+}
